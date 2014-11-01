@@ -1,6 +1,6 @@
 {
 	"name": "angularQFileUpload",
-	"version": "0.1.4",
+	"version": "0.0.1",
 	"homepage": "http://github.com/icattlecoder/angularQFileUpload",
 	"authors": [
 		"icattlecoder <icattlecoder@gmail.com>"
@@ -25,6 +25,6 @@
 	],
 	"devDependencies": {
 		"angularjs": "*",
-		"angular-mocks": "~1.2.1"
+		"angular-local-storage": ">0.1.4"
 	}
 }
