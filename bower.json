@@ -1,0 +1,30 @@
+{
+	"name": "angularQFileUpload",
+	"version": "0.1.4",
+	"homepage": "http://github.com/icattlecoder/angularQFileUpload",
+	"authors": [
+		"icattlecoder <icattlecoder@gmail.com>"
+	],
+	"description": "AngularJS qiniu cloud storage large file upload service with support resumble,progress",
+	"main": "./src/qupload.js",
+	"keywords": [
+		"AngularJS",
+		"Angular",
+		"Storage",
+		"Qiniu",
+		"Qiniu upload"
+	],
+	"license": "MIT",
+	"ignore": [
+		"src",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests",
+		"Gruntfile.js"
+	],
+	"devDependencies": {
+		"angularjs": "*",
+		"angular-mocks": "~1.2.1"
+	}
+}
