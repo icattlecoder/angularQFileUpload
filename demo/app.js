@@ -17,9 +17,9 @@ angular.module('qiniuUploadApp', ['angularQFileUpload', 'LocalStorageModule'])
 				p: 0
 			};
 			$scope.selectFiles[index].upload = $qupload.upload({
-				key: '124/1414748783948772378/网站-首页-01.png',
+				key: '<your qiniu file key>',
 				file: $scope.selectFiles[index].file,
-				token: 'IT9iP3J9wdXXYsT1p8ns0gWD-CQOdLvIQuyE0FOK:ZM79I8EtrxY4T2n47p5rhCQiWDg=:eyJzY29wZSI6ImZvb29vb29vb29vbzoxMjQvMTQxNDc0ODc4Mzk0ODc3MjM3OC_nvZHnq5kt6aaW6aG1LTAxLnBuZyIsImRlYWRsaW5lIjoxNDE0ODM1MTgzLCJmc2l6ZUxpbWl0Ijo1MjQyODgwMH0='
+				token: '<your qiniu UpToken>'
 			});
 			$scope.selectFiles[index].upload.then(function (response) {
 				$log.info(response);
