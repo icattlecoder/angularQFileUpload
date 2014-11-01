@@ -1,6 +1,6 @@
 {
 	"name": "angular-qiniu-upload",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"homepage": "https://github.com/icattlecoder/angularQFileUpload/blob/master/README.md",
 	"authors": [
 		"icattlecoder <icattlecoder@gmail.com>"
@@ -24,7 +24,7 @@
 	],
 	"dependencies": {
 		"angularjs": "~1.2.16",
-		"angular-local-storage": ">0.1.4"
+		"angular-local-storage": "0.1.4"
 	},
 	"devDependencies": {
 		"angularjs": "*",

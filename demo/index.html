@@ -17,7 +17,7 @@
         <div ng-file-select="onFileSelect($files)" data-multiple="true" title="select file" onclick="this.value = null" class="btn btn-upload">Click here to select file</div>
         <ol>
             <li ng-repeat="(k,v) in selectFiles">
-                {{v.file.name}} - {{v.progress.p}} <button ng-click="abort(k)">xx</button>
+                {{v.file.name}} - {{v.progress.p}}% <button ng-click="abort(k)">x</button>
             </li>
         </ol>
     </div>
