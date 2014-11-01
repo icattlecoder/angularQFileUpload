@@ -1,7 +1,7 @@
 {
 	"name": "angularQFileUpload",
 	"version": "0.0.1",
-	"homepage": "http://github.com/icattlecoder/angularQFileUpload",
+	"homepage": "https://github.com/icattlecoder/angularQFileUpload/blob/master/README.md",
 	"authors": [
 		"icattlecoder <icattlecoder@gmail.com>"
 	],
@@ -16,7 +16,6 @@
 	],
 	"license": "MIT",
 	"ignore": [
-		"src",
 		"node_modules",
 		"bower_components",
 		"test",
