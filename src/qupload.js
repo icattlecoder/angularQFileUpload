@@ -72,6 +72,11 @@
 
 			var uploadEndPoint = 'http://up.qiniu.com';
 
+			// if page loaded over HTTPS, then uploadEndPoint should be "https://up.qbox.me", see https://github.com/qiniu/js-sdk/blob/master/README.md#%E8%AF%B4%E6%98%8E
+			if(window && window.location && window.location.protocol==="https:"){
+				uploadEndPoint = "https://up.qbox.me";
+			}
+
 			var defaultsSetting = {
 				chunkSize: 1024 * 1024 * 4,
 				mkblkEndPoint: uploadEndPoint + '/mkblk/',
