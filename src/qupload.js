@@ -115,7 +115,7 @@
 				if (!blockRet) {
 					blockRet = [];
 				}
-				var blkCount = (file.size + ((1 << 22) - 1)) >> 22;
+				var blkCount = Math.ceil(file.size / (1024 * 1024 * 4));
 
 				var getChunck = function (file, startByte, endByte) {
 					return file[(file.slice ? 'slice' : (file.mozSlice ? 'mozSlice' : (file.webkitSlice ? 'webkitSlice' : 'slice')))](startByte, endByte);
